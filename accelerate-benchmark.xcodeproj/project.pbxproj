@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF76B6D14F2C86C00A51FA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B6C14F2C86C00A51FA1 /* UIKit.framework */; };
+		ADF76B6F14F2C86C00A51FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B6E14F2C86C00A51FA1 /* Foundation.framework */; };
+		ADF76B7114F2C86C00A51FA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B7014F2C86C00A51FA1 /* CoreGraphics.framework */; };
+		ADF76B7714F2C86C00A51FA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B7514F2C86C00A51FA1 /* InfoPlist.strings */; };
+		ADF76B7914F2C86C00A51FA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B7814F2C86C00A51FA1 /* main.m */; };
+		ADF76B7D14F2C86C00A51FA1 /* XitiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B7C14F2C86C00A51FA1 /* XitiveAppDelegate.m */; };
+		ADF76B8014F2C86C00A51FA1 /* XitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B7F14F2C86C00A51FA1 /* XitiveViewController.m */; };
+		ADF76B8314F2C86C00A51FA1 /* XitiveViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8114F2C86C00A51FA1 /* XitiveViewController_iPhone.xib */; };
+		ADF76B8614F2C86C00A51FA1 /* XitiveViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8414F2C86C00A51FA1 /* XitiveViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADF76B6814F2C86C00A51FA1 /* accelerate-benchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "accelerate-benchmark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF76B6C14F2C86C00A51FA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADF76B6E14F2C86C00A51FA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADF76B7014F2C86C00A51FA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADF76B7414F2C86C00A51FA1 /* accelerate-benchmark-Info.plist */ = {isa = PBXFileReference; path = "accelerate-benchmark-Info.plist"; sourceTree = "<group>"; };
+		ADF76B7614F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADF76B7814F2C86C00A51FA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADF76B7A14F2C86C00A51FA1 /* accelerate-benchmark-Prefix.pch */ = {isa = PBXFileReference; path = "accelerate-benchmark-Prefix.pch"; sourceTree = "<group>"; };
+		ADF76B7B14F2C86C00A51FA1 /* XitiveAppDelegate.h */ = {isa = PBXFileReference; path = XitiveAppDelegate.h; sourceTree = "<group>"; };
+		ADF76B7C14F2C86C00A51FA1 /* XitiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XitiveAppDelegate.m; sourceTree = "<group>"; };
+		ADF76B7E14F2C86C00A51FA1 /* XitiveViewController.h */ = {isa = PBXFileReference; path = XitiveViewController.h; sourceTree = "<group>"; };
+		ADF76B7F14F2C86C00A51FA1 /* XitiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XitiveViewController.m; sourceTree = "<group>"; };
+		ADF76B8214F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XitiveViewController_iPhone.xib; sourceTree = "<group>"; };
+		ADF76B8514F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XitiveViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF76B6514F2C86C00A51FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF76B6D14F2C86C00A51FA1 /* UIKit.framework in Frameworks */,
+				ADF76B6F14F2C86C00A51FA1 /* Foundation.framework in Frameworks */,
+				ADF76B7114F2C86C00A51FA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF76B5D14F2C86C00A51FA1 = {
+			isa = PBXGroup;
+			children = (
+				ADF76B7214F2C86C00A51FA1 /* accelerate-benchmark */,
+				ADF76B6B14F2C86C00A51FA1 /* Frameworks */,
+				ADF76B6914F2C86C00A51FA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF76B6914F2C86C00A51FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF76B6814F2C86C00A51FA1 /* accelerate-benchmark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF76B6B14F2C86C00A51FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADF76B6C14F2C86C00A51FA1 /* UIKit.framework */,
+				ADF76B6E14F2C86C00A51FA1 /* Foundation.framework */,
+				ADF76B7014F2C86C00A51FA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF76B7214F2C86C00A51FA1 /* accelerate-benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				ADF76B7B14F2C86C00A51FA1 /* XitiveAppDelegate.h */,
+				ADF76B7C14F2C86C00A51FA1 /* XitiveAppDelegate.m */,
+				ADF76B7E14F2C86C00A51FA1 /* XitiveViewController.h */,
+				ADF76B7F14F2C86C00A51FA1 /* XitiveViewController.m */,
+				ADF76B8114F2C86C00A51FA1 /* XitiveViewController_iPhone.xib */,
+				ADF76B8414F2C86C00A51FA1 /* XitiveViewController_iPad.xib */,
+				ADF76B7314F2C86C00A51FA1 /* Supporting Files */,
+			);
+			path = "accelerate-benchmark";
+			sourceTree = "<group>";
+		};
+		ADF76B7314F2C86C00A51FA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF76B7414F2C86C00A51FA1 /* accelerate-benchmark-Info.plist */,
+				ADF76B7514F2C86C00A51FA1 /* InfoPlist.strings */,
+				ADF76B7814F2C86C00A51FA1 /* main.m */,
+				ADF76B7A14F2C86C00A51FA1 /* accelerate-benchmark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF76B6714F2C86C00A51FA1 /* accelerate-benchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF76B8914F2C86C00A51FA1 /* Build configuration list for PBXNativeTarget "accelerate-benchmark" */;
+			buildPhases = (
+				ADF76B6414F2C86C00A51FA1 /* Sources */,
+				ADF76B6514F2C86C00A51FA1 /* Frameworks */,
+				ADF76B6614F2C86C00A51FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "accelerate-benchmark";
+			productName = "accelerate-benchmark";
+			productReference = ADF76B6814F2C86C00A51FA1 /* accelerate-benchmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF76B5F14F2C86C00A51FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = none;
+			};
+			buildConfigurationList = ADF76B6214F2C86C00A51FA1 /* Build configuration list for PBXProject "accelerate-benchmark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADF76B5D14F2C86C00A51FA1;
+			productRefGroup = ADF76B6914F2C86C00A51FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF76B6714F2C86C00A51FA1 /* accelerate-benchmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF76B6614F2C86C00A51FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF76B7714F2C86C00A51FA1 /* InfoPlist.strings in Resources */,
+				ADF76B8314F2C86C00A51FA1 /* XitiveViewController_iPhone.xib in Resources */,
+				ADF76B8614F2C86C00A51FA1 /* XitiveViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF76B6414F2C86C00A51FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF76B7914F2C86C00A51FA1 /* main.m in Sources */,
+				ADF76B7D14F2C86C00A51FA1 /* XitiveAppDelegate.m in Sources */,
+				ADF76B8014F2C86C00A51FA1 /* XitiveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADF76B7514F2C86C00A51FA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF76B7614F2C86C00A51FA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADF76B8114F2C86C00A51FA1 /* XitiveViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF76B8214F2C86C00A51FA1 /* en */,
+			);
+			name = XitiveViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		ADF76B8414F2C86C00A51FA1 /* XitiveViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF76B8514F2C86C00A51FA1 /* en */,
+			);
+			name = XitiveViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF76B8714F2C86C00A51FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF76B8814F2C86C00A51FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF76B8A14F2C86C00A51FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "accelerate-benchmark/accelerate-benchmark-Prefix.pch";
+				INFOPLIST_FILE = "accelerate-benchmark/accelerate-benchmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADF76B8B14F2C86C00A51FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "accelerate-benchmark/accelerate-benchmark-Prefix.pch";
+				INFOPLIST_FILE = "accelerate-benchmark/accelerate-benchmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF76B6214F2C86C00A51FA1 /* Build configuration list for PBXProject "accelerate-benchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF76B8714F2C86C00A51FA1 /* Debug */,
+				ADF76B8814F2C86C00A51FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF76B8914F2C86C00A51FA1 /* Build configuration list for PBXNativeTarget "accelerate-benchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF76B8A14F2C86C00A51FA1 /* Debug */,
+				ADF76B8B14F2C86C00A51FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF76B5F14F2C86C00A51FA1 /* Project object */;
+}
