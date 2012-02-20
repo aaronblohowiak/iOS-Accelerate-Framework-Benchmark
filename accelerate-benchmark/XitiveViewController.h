@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XitiveViewController : UIViewController
+@interface XitiveViewController : UIViewController{
+    UILabel * label;
+}
 
 @end

@@ -16,6 +16,13 @@
 		ADF76B8014F2C86C00A51FA1 /* XitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B7F14F2C86C00A51FA1 /* XitiveViewController.m */; };
 		ADF76B8314F2C86C00A51FA1 /* XitiveViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8114F2C86C00A51FA1 /* XitiveViewController_iPhone.xib */; };
 		ADF76B8614F2C86C00A51FA1 /* XitiveViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8414F2C86C00A51FA1 /* XitiveViewController_iPad.xib */; };
+		ADF76B9214F2E25500A51FA1 /* apb_load_file_easy.c in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B8C14F2E25500A51FA1 /* apb_load_file_easy.c */; };
+		ADF76B9314F2E25500A51FA1 /* track_a.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8E14F2E25500A51FA1 /* track_a.wav */; };
+		ADF76B9414F2E25500A51FA1 /* track_b.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADF76B8F14F2E25500A51FA1 /* track_b.wav */; };
+		ADF76B9514F2E25500A51FA1 /* XitiveBenchmark.c in Sources */ = {isa = PBXBuildFile; fileRef = ADF76B9014F2E25500A51FA1 /* XitiveBenchmark.c */; };
+		ADF76B9714F2E26000A51FA1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B9614F2E26000A51FA1 /* Accelerate.framework */; };
+		ADF76B9914F2E26800A51FA1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B9814F2E26800A51FA1 /* CoreAudio.framework */; };
+		ADF76B9B14F2E61700A51FA1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF76B9A14F2E61700A51FA1 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +30,25 @@
 		ADF76B6C14F2C86C00A51FA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADF76B6E14F2C86C00A51FA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADF76B7014F2C86C00A51FA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ADF76B7414F2C86C00A51FA1 /* accelerate-benchmark-Info.plist */ = {isa = PBXFileReference; path = "accelerate-benchmark-Info.plist"; sourceTree = "<group>"; };
+		ADF76B7414F2C86C00A51FA1 /* accelerate-benchmark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "accelerate-benchmark-Info.plist"; sourceTree = "<group>"; };
 		ADF76B7614F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADF76B7814F2C86C00A51FA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADF76B7A14F2C86C00A51FA1 /* accelerate-benchmark-Prefix.pch */ = {isa = PBXFileReference; path = "accelerate-benchmark-Prefix.pch"; sourceTree = "<group>"; };
-		ADF76B7B14F2C86C00A51FA1 /* XitiveAppDelegate.h */ = {isa = PBXFileReference; path = XitiveAppDelegate.h; sourceTree = "<group>"; };
+		ADF76B7A14F2C86C00A51FA1 /* accelerate-benchmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "accelerate-benchmark-Prefix.pch"; sourceTree = "<group>"; };
+		ADF76B7B14F2C86C00A51FA1 /* XitiveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XitiveAppDelegate.h; sourceTree = "<group>"; };
 		ADF76B7C14F2C86C00A51FA1 /* XitiveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XitiveAppDelegate.m; sourceTree = "<group>"; };
-		ADF76B7E14F2C86C00A51FA1 /* XitiveViewController.h */ = {isa = PBXFileReference; path = XitiveViewController.h; sourceTree = "<group>"; };
+		ADF76B7E14F2C86C00A51FA1 /* XitiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XitiveViewController.h; sourceTree = "<group>"; };
 		ADF76B7F14F2C86C00A51FA1 /* XitiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XitiveViewController.m; sourceTree = "<group>"; };
 		ADF76B8214F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XitiveViewController_iPhone.xib; sourceTree = "<group>"; };
 		ADF76B8514F2C86C00A51FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XitiveViewController_iPad.xib; sourceTree = "<group>"; };
+		ADF76B8C14F2E25500A51FA1 /* apb_load_file_easy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = apb_load_file_easy.c; path = "../../benchmark-cmdline/apb_load_file_easy.c"; sourceTree = "<group>"; };
+		ADF76B8D14F2E25500A51FA1 /* apb_load_file_easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apb_load_file_easy.h; path = "../../benchmark-cmdline/apb_load_file_easy.h"; sourceTree = "<group>"; };
+		ADF76B8E14F2E25500A51FA1 /* track_a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = track_a.wav; path = "../../benchmark-cmdline/track_a.wav"; sourceTree = "<group>"; };
+		ADF76B8F14F2E25500A51FA1 /* track_b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = track_b.wav; path = "../../benchmark-cmdline/track_b.wav"; sourceTree = "<group>"; };
+		ADF76B9014F2E25500A51FA1 /* XitiveBenchmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = XitiveBenchmark.c; path = "../../benchmark-cmdline/XitiveBenchmark.c"; sourceTree = "<group>"; };
+		ADF76B9114F2E25500A51FA1 /* XitiveBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XitiveBenchmark.h; path = "../../benchmark-cmdline/XitiveBenchmark.h"; sourceTree = "<group>"; };
+		ADF76B9614F2E26000A51FA1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		ADF76B9814F2E26800A51FA1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		ADF76B9A14F2E61700A51FA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF76B9B14F2E61700A51FA1 /* AudioToolbox.framework in Frameworks */,
+				ADF76B9914F2E26800A51FA1 /* CoreAudio.framework in Frameworks */,
+				ADF76B9714F2E26000A51FA1 /* Accelerate.framework in Frameworks */,
 				ADF76B6D14F2C86C00A51FA1 /* UIKit.framework in Frameworks */,
 				ADF76B6F14F2C86C00A51FA1 /* Foundation.framework in Frameworks */,
 				ADF76B7114F2C86C00A51FA1 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +71,9 @@
 		ADF76B5D14F2C86C00A51FA1 = {
 			isa = PBXGroup;
 			children = (
+				ADF76B9A14F2E61700A51FA1 /* AudioToolbox.framework */,
+				ADF76B9814F2E26800A51FA1 /* CoreAudio.framework */,
+				ADF76B9614F2E26000A51FA1 /* Accelerate.framework */,
 				ADF76B7214F2C86C00A51FA1 /* accelerate-benchmark */,
 				ADF76B6B14F2C86C00A51FA1 /* Frameworks */,
 				ADF76B6914F2C86C00A51FA1 /* Products */,
@@ -79,6 +101,12 @@
 		ADF76B7214F2C86C00A51FA1 /* accelerate-benchmark */ = {
 			isa = PBXGroup;
 			children = (
+				ADF76B8C14F2E25500A51FA1 /* apb_load_file_easy.c */,
+				ADF76B8D14F2E25500A51FA1 /* apb_load_file_easy.h */,
+				ADF76B8E14F2E25500A51FA1 /* track_a.wav */,
+				ADF76B8F14F2E25500A51FA1 /* track_b.wav */,
+				ADF76B9014F2E25500A51FA1 /* XitiveBenchmark.c */,
+				ADF76B9114F2E25500A51FA1 /* XitiveBenchmark.h */,
 				ADF76B7B14F2C86C00A51FA1 /* XitiveAppDelegate.h */,
 				ADF76B7C14F2C86C00A51FA1 /* XitiveAppDelegate.m */,
 				ADF76B7E14F2C86C00A51FA1 /* XitiveViewController.h */,
@@ -155,6 +183,8 @@
 				ADF76B7714F2C86C00A51FA1 /* InfoPlist.strings in Resources */,
 				ADF76B8314F2C86C00A51FA1 /* XitiveViewController_iPhone.xib in Resources */,
 				ADF76B8614F2C86C00A51FA1 /* XitiveViewController_iPad.xib in Resources */,
+				ADF76B9314F2E25500A51FA1 /* track_a.wav in Resources */,
+				ADF76B9414F2E25500A51FA1 /* track_b.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +198,8 @@
 				ADF76B7914F2C86C00A51FA1 /* main.m in Sources */,
 				ADF76B7D14F2C86C00A51FA1 /* XitiveAppDelegate.m in Sources */,
 				ADF76B8014F2C86C00A51FA1 /* XitiveViewController.m in Sources */,
+				ADF76B9214F2E25500A51FA1 /* apb_load_file_easy.c in Sources */,
+				ADF76B9514F2E25500A51FA1 /* XitiveBenchmark.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
